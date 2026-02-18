@@ -21,15 +21,17 @@ Note: this repository is built on Python 3.10.11
 Rotations matrices are used to transform the HMD axis to:
 [![hmd_axis](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/hmd_axis.png "hmd_axis")](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/hmd_axis.png "hmd_axis")
 
-To modify axis, rotation matrices in`ur_teleop_utils.py`must be manually modified..
+To modify axis, rotation matrices in`ur_teleop_utils.py`must be manually modified.
 
 Hand controllers are configured as:
 
 [![controllers](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/controllers.png "controllers")](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/controllers.png "controllers")
 
 **Control the robot by moving the right hand-controller**. To modify button and trigger actions,`ur_teleop_utils.py`must be manually modified.
+
 Default configuration for pause/unpause allows movement of the hand-controller while paused and continuing from the current position when unpaused.
-**WARNING: Avoid pausing/unpausing if the RTDE receive interface breaks with  `RTDEReceiveInterface boost system Exception: (asio.misc:2) End of file`, this will prevent realignment during unpausing and may cause sudden robot movements!**
+
+##### **WARNING: Avoid pausing/unpausing if the RTDE receive interface breaks with  `RTDEReceiveInterface boost system Exception: (asio.misc:2) End of file`, this will prevent realignment during unpausing and may cause sudden robot movements!**
 
 #### 2. Setup and calibration
 * Start the Meta Horizon Link app and establish USB-C or wireless connection with Meta Quest 3
