@@ -1,6 +1,8 @@
 # VR Teleoperation Controller for Universal Robots
 A Meta Quest 3 light-weight teleoperation controller for Universal Robots manipulators. Robot communication is based on [ur_rtde](https://sdurobotics.gitlab.io/ur_rtde/ "ur_rtde") and is therefore robot-version agnostic and control can be applied for UR3, UR5, UR10, etc.
 
+[![demo](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/demo.gif "demo")](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/demo.gif "demo")
+
 This software was developed to collect datasets for finetuning of generalist robot policies and Vision-Language-Action models. The default controller features multiprocessing of multiple RealSense camera datastreams and direct control of a Robotiq Hand-E end-effector, but can be readily modified for other hardware setups. 
 
 ## Installation
