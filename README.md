@@ -8,6 +8,7 @@ This software was developed to collect datasets for finetuning of generalist rob
 ## Installation
 ### 1. Prerequisites
 Install [Meta Horizon Link](https://www.meta.com/help/quest/1517439565442928/ "Meta Horizon Link") app
+
 Install [SteamVR](https://store.steampowered.com/app/250820/SteamVR/ "SteamVR") app
 
 ### 2. Python Setup
