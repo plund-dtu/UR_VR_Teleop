@@ -21,6 +21,7 @@ Note: this repository is built on Python 3.10.11
 ## Usage 
 ### 1. Hardware overview and configuration
 Rotations matrices are used to transform the HMD axis to:
+
 [![hmd_axis](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/hmd_axis.png "hmd_axis")](https://github.com/plund-dtu/UR_VR_Teleop/blob/main/documentation/hmd_axis.png "hmd_axis")
 
 To modify axis, rotation matrices in`ur_teleop_utils.py`must be manually modified.
